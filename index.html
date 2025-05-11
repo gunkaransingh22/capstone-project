@@ -27,7 +27,23 @@
         .topnav a:active{
             background-color: coral;
             color: wheat;
-        }  
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            text-transform: capitalize;
+        } 
+        .carousel-container {
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            height: 300px;
+        } 
+        .myslides {
+            display: none;
+            max-height: 100%;
+            max-width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -42,5 +58,13 @@
         <a href="neptune.html">Neptune</a>
 
     </div>
+    <h1>solar system</h1>
+    <div class="carousel-container">
+        <img class="myslides" src="solar-system-planets.png" height="300" width="300">
+        <img class="myslides" src="99610486.webp" height="300" width="300">
+    </div>
+    <script src="script.js">
+        
+    </script>
 </body>
 </html>
